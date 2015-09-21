@@ -5,3 +5,8 @@
 ```objc
 [XMGStatusBarHUD showSuccess:@"加载数据成功！"];
 ```
+
+## 显示失败信息
+```objc
+[XMGStatusBarHUD showError:@"登录失败！"];
+```
