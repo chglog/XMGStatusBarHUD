@@ -11,6 +11,7 @@
 @implementation XMGStatusBarHUD
 
 static UIWindow *window_;
+/** 定时器 */
 static NSTimer *timer_;
 /** HUD控件的高度 */
 static CGFloat const XMGWindowH = 20;
