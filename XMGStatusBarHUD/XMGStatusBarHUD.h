@@ -17,7 +17,7 @@
 
 /**
  * 显示图片+文字信息
- */
+ *///
 + (void)showImage:(UIImage *)image text:(NSString *)text;
 
 /**
