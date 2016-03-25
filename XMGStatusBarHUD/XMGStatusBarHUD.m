@@ -115,6 +115,10 @@ static CGFloat const XMGHUDStayDuration = 1.5;
     }];
 }
 
++(void)showXXX{
+
+}
+
 + (void)hide
 {
     // 清空定时器
