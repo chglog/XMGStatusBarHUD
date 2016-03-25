@@ -119,9 +119,6 @@ static CGFloat const XMGHUDStayDuration = 1.5;
     }];
 }
 
-+(void)showXXX{
-
-}
 
 + (void)hide
 {
