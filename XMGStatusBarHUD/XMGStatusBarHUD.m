@@ -20,6 +20,17 @@ static CGFloat const XMGAnimationDuration = 0.25;
 static CGFloat const XMGHUDStayDuration = 1.5;
 
 
+
+
+
+
+
+
++(void)hahaah{
+NSString * a = @"sdd";
+}
+
+
 +(void)BIGMAGE{
 }
 
