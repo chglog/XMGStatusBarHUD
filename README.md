@@ -10,4 +10,4 @@
 ```objc
 [XMGStatusBarHUD showError:@"登录失败！"];
 ```
-好用的话请给个星吧
+
