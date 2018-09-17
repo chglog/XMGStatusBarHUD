@@ -19,6 +19,7 @@ static CGFloat const XMGAnimationDuration = 0.25;
 /** HUD控件默认会停留多长时间 */
 static CGFloat const XMGHUDStayDuration = 1.5;
 
+//这里需要注意  写点注释方便6666
 + (void)showImage:(UIImage *)image text:(NSString *)text
 {
     // 停止之前的定时器
