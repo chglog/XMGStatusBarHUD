@@ -19,9 +19,24 @@ static CGFloat const XMGAnimationDuration = 0.25;
 /** HUD控件默认会停留多长时间 */
 static CGFloat const XMGHUDStayDuration = 1.5;
 
+
+
+
+
+
+
+
++(void)hahaah{
+NSString * a = @"sdd";
+}
+
+
++(void)BIGMAGE{
+}
+
 + (void)showImage:(UIImage *)image text:(NSString *)text
 {
-    // 停止之前的定时器
+    // 停止之前的定时器是不是
     [timer_ invalidate];
     
     // 创建窗口
@@ -114,6 +129,7 @@ static CGFloat const XMGHUDStayDuration = 1.5;
         window_.frame = frame;
     }];
 }
+
 
 + (void)hide
 {
