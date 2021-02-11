@@ -15,6 +15,17 @@
 
 @implementation ViewController
 
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    // 很牛逼的框架
+}
 - (IBAction)success {
     [XMGStatusBarHUD showSuccess:@"加载数据成功！"];
 }
@@ -35,14 +46,8 @@
     [XMGStatusBarHUD showText:@"随便显示的文字！！！！"];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 @end
